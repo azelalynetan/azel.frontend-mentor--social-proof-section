@@ -197,9 +197,6 @@ footer {
   }
   
   .top-section {
-    /* display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 1em; */
     display: flex;
     gap: 3em;
     flex-flow: row;
