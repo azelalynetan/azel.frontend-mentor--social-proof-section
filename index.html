@@ -9,53 +9,74 @@
       rel="icon"
       type="image/png"
       sizes="32x32"
-      href="./images/favicon-32x32.png"
+      href="./assets/images/favicon-32x32.png"
     />
 
     <title>Frontend Mentor | Social proof section</title>
-
-    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-    <!-- <style>
-      .attribution {
-        font-size: 11px;
-        text-align: center;
-      }
-      .attribution a {
-        color: hsl(228, 45%, 44%);
-      }
-    </style> -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./assets/css/reset.css">  
     <link rel="stylesheet" href="./assets/css/styles.css">  
   </head>
   <body>
-    <main>
-      <header>
-        <h1>10,000+ of our users love our products.</h1>
-        <p>
-          We only provide great products combined with excellent customer service.
-          See what our satisfied customers are saying about our services.
-        </p>
-      </header>
-      <section>
-        <div>
-          <p>Rated 5 Stars in Reviews</p>
-        </div>
-        <div>
-          <p>Rated 5 Stars in Report Guru</p>
-        </div>
-        <div>
-          <p>Rated 5 Stars in BestTech</p>
-        </div>
+    <div class="bg-top">
+      <img src="./assets/images/bg-pattern-top-desktop.svg" alt="">
+    </div>
+    <main class="main-section">
+      <section class="top-section">
+        <header class="header-section">
+          <h1>10,000+ of our users love our products.</h1>
+          <p>
+            We only provide great products combined with excellent customer service.
+            See what our satisfied customers are saying about our services.
+          </p>
+        </header>
+        <section class="ratings-section">
+          <div class="card">
+            <div class="stars">
+              <img src="./assets/images/icon-star.svg" alt="Icon Star" />
+              <img src="./assets/images/icon-star.svg" alt="Icon Star" />
+              <img src="./assets/images/icon-star.svg" alt="Icon Star" />
+              <img src="./assets/images/icon-star.svg" alt="Icon Star" />
+              <img src="./assets/images/icon-star.svg" alt="Icon Star" />
+            </div>
+            <p>Rated 5 Stars in Reviews</p>
+          </div>
+          <div class="card">
+            <div class="stars">
+              <img src="./assets/images/icon-star.svg" alt="Icon Star" />
+              <img src="./assets/images/icon-star.svg" alt="Icon Star" />
+              <img src="./assets/images/icon-star.svg" alt="Icon Star" />
+              <img src="./assets/images/icon-star.svg" alt="Icon Star" />
+              <img src="./assets/images/icon-star.svg" alt="Icon Star" />
+            </div>
+            <p>Rated 5 Stars in Report Guru</p>
+          </div>
+          <div class="card">
+            <div class="stars">
+              <img src="./assets/images/icon-star.svg" alt="Icon Star" />
+              <img src="./assets/images/icon-star.svg" alt="Icon Star" />
+              <img src="./assets/images/icon-star.svg" alt="Icon Star" />
+              <img src="./assets/images/icon-star.svg" alt="Icon Star" />
+              <img src="./assets/images/icon-star.svg" alt="Icon Star" />
+            </div>
+            <p>Rated 5 Stars in BestTech</p>
+          </div>
+        </section>
       </section>
       
 
-      <section>
-        <article>
-          <div>
-            Colton Smith 
-            Verified Buyer
+      <section class="comments-section">
+        <article class="card">
+          <div class="profile-card">
+            <img class="profile-image" src="./assets/images/image-colton.jpg" alt="Colton's Photo">
+            <div class="profile-details">
+              <p class="profile-name">Colton Smith</p>
+              <p class="profile-description">Verified Buyer</p>
+            </div>
           </div>
-          <div>
+          <div class="comment">
             <p>
               "We needed the same printed design as the one we had ordered a week prior.
               Not only did they find the original order, but we also received it in time.
@@ -63,12 +84,15 @@
             </p>
           </div>
         </article>
-        <article>
-          <div>
-            Irene Roberts 
-            Verified Buyer
+        <article class="card">
+          <div class="profile-card">
+            <img class="profile-image" src="./assets/images/image-irene.jpg" alt="Irene's Photo">
+            <div class="profile-details">
+              <p class="profile-name">Irene Roberts</p>
+              <p class="profile-description">Verified Buyer</p>
+            </div>
           </div>
-          <div>
+          <div class="comment">
             <p>
               "We needed the same printed design as the one we had ordered a week prior.
               Not only did they find the original order, but we also received it in time.
@@ -76,12 +100,15 @@
             </p>
           </div>
         </article>
-        <article>
-          <div>
-            Anne Wallace 
-            Verified Buyer
+        <article class="card">
+          <div class="profile-card">
+            <img class="profile-image" src="./assets/images/image-anne.jpg" alt="Anne's Photo">
+            <div class="profile-details">
+              <p class="profile-name">Anne Wallace</p>
+              <p class="profile-description">Verified Buyer</p>
+            </div>
           </div>
-          <div>
+          <div class="comment">
             <p>
               "Put an order with this company and can only praise them for the very high
               standard. Will definitely use them again and recommend them to everyone!"
@@ -97,5 +124,8 @@
         >Frontend Mentor</a
       >. Coded by <a href="#">Azel Tan</a>.
     </footer>
+    <div class="bg-bottom">
+      <img src="./assets/images/bg-pattern-bottom-desktop.svg" alt="">
+    </div>
   </body>
 </html>
