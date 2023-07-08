@@ -37,8 +37,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Github repository](https://your-solution-url.com)
-- Live Site URL: [Github page](https://your-live-site-url.com)
+- Solution URL: [Github repository](https://github.com/azelalynetan/azel.frontend-mentor--social-proof-section)
+- Live Site URL: [Github page](https://azelalynetan.github.io/azel.frontend-mentor--social-proof-section)
 
 ## My process
 
